@@ -1,0 +1,42 @@
+/* Custom Fonts */
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Custom Styling */
+.prose {
+    color: #374151;
+    line-height: 1.8;
+}
+
+.prose h3 {
+    font-family: 'Playfair Display', serif;
+    color: #1F2937;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.prose ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.prose p {
+    margin-bottom: 1rem;
+}
